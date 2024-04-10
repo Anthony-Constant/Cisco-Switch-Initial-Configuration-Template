@@ -1,4 +1,4 @@
-# Cisco Catalyst 2960 Switch Initial Configuration Template
+# Cisco Switch Initial Configuration Template
 
 
 ## Introduction
