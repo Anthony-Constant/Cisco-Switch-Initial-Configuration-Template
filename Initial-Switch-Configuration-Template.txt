@@ -1,4 +1,3 @@
-!
 ! Configuration Template
 !
 ! Note: Replace placeholders like XX-X<XXX>-<XX> and <PortNumber> with appropriate values.
@@ -10,7 +9,7 @@ enable
 configure terminal
 !
 ! Set software version
-version 12.2
+version <SoftwareVersion>
 !
 ! Disable unnecessary services
 no service pad
@@ -20,10 +19,10 @@ no service password-encryption
 no service dhcp
 !
 ! Set hostname
-hostname SW1-HQ
+hostname <Hostname>
 !
 ! Set system MTU
-system mtu routing 1500
+system mtu routing <SystemMTU>
 !
 ! Configure Spanning Tree Protocol
 spanning-tree mode pvst
@@ -49,7 +48,7 @@ interface GigabitEthernet0/1
 !
 ! Configure VLAN interface Management IP
 interface Vlan1
- ip address 10.10.10.10 255.255.255.0
+ ip address <ManagementIP> <SubnetMask>
  no shutdown
 !
 ! Configure HTTP server
@@ -60,12 +59,12 @@ ip http secure-server
 vstack
 !
 ! Set enable secret for console
-enable secret c0ns0le
+enable secret <ConsolePassword>
 !
 ! Configure console and VTY lines
 line con 0
-  username admin
-  enable password cisco
+  username <ConsoleUsername>
+  enable password <EnablePassword>
 !
 ! Configure login banner
 banner motd #
@@ -82,4 +81,3 @@ banner motd #
 end
 !
 ! www.anthonyconstant.co.uk
-
