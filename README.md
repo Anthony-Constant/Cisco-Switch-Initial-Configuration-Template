@@ -21,7 +21,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Acknowledgements
 
-This script was created by [Anthony Constant](https://anthonyconstant.co.uk/). 
+This Configuration Template was created by [Anthony Constant](https://anthonyconstant.co.uk/). 
 
 ## Support My Work
 
