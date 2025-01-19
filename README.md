@@ -15,6 +15,9 @@ Access to a network device's command-line interface.
 Basic understanding of network configurations.
 Necessary privileges to modify device settings.
 
+## Demo
+https://www.youtube.com/watch?v=1m9fhvbTnmk&ab_channel=AnthonyConstant
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
